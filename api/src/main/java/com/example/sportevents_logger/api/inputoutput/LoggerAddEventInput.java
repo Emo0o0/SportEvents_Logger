@@ -9,4 +9,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoggerAddEventInput implements OperationInput {
+
+    private String id;
+    private String logMessage;
+
 }

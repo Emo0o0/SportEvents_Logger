@@ -10,4 +10,9 @@ import lombok.*;
 @AllArgsConstructor
 public class LoggerAddEventOutput implements OperationResult {
 
+    private String id;
+    private String logMessage;
+    private String timestamp;
+
+
 }
