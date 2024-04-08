@@ -1,4 +1,4 @@
-package com.example.sportevents_logger.api.inputoutput;
+package com.example.sportevents_logger.api.inputoutput.addevent;
 
 import com.example.sportevents_logger.api.base.OperationProcessor;
 

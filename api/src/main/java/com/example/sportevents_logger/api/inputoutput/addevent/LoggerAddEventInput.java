@@ -1,16 +1,18 @@
-package com.example.sportevents_logger.api.inputoutput;
+package com.example.sportevents_logger.api.inputoutput.addevent;
 
 import com.example.sportevents_logger.api.base.OperationInput;
 import lombok.*;
 
+import java.sql.Timestamp;
+
 @Getter
-@Setter
+@Setter(AccessLevel.PRIVATE)
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoggerAddEventInput implements OperationInput {
 
-    private String id;
     private String logMessage;
+    private Timestamp timestamp;
 
 }
